@@ -1,20 +1,15 @@
 function solution(N, stages) {
-    const stageList = Array.from({length : N},(_,i)=>({stage : i + 1, clear : 0, failed : 0}))
+    const stageList = Array.from({ length: N }, (_, i) => ({ stage: i + 1, clear: 0, failed: 0 }));
+    const players = new Array(N + 2).fill(0); // 실패율 계산용 배열
     
-    for(let i = 0; i < stages.length; i++){
-        for(let j = 0; j < stageList.length; j++){
-            if(stageList[j].stage === stages[i]){
-                stageList[j]['failed'] += 1
-            }
-            if(stageList[j].stage < stages[i]){
-                stageList[j].clear += 1
-            }
-        }
-    }
+    stages.forEach(stage => players[stage] += 1); // 각 스테이지에 있는 플레이어 수 계산
     
-    const newarray = stageList.map(a => ({...a,failed : a.failed/(a.clear+a.failed)}))
-                    .sort((a, b) => b.failed - a.failed)
-                    .map(a => a.stage)
+    let totalPlayers = stages.length;
+    stageList.forEach(stage => {
+        const failedPlayers = players[stage.stage];
+        stage.failed = failedPlayers / totalPlayers;
+        totalPlayers -= failedPlayers;
+    });
     
-    return newarray;
+    return stageList.sort((a, b) => b.failed - a.failed).map(a => a.stage);
 }
