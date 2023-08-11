@@ -1,4 +1,5 @@
-function sieveOfEratosthenes(n) {
+function solution(n) {
+    const primes = []
     const isPrime = new Array(n + 1).fill(true);
     isPrime[0] = isPrime[1] = false;
 
@@ -9,18 +10,11 @@ function sieveOfEratosthenes(n) {
             }
         }
     }
-
-    const primes = [];
-    for (let i = 2; i <= n; i++) {
-        if (isPrime[i]) {
-            primes.push(i);
+    
+    for(let i = 2; i <= n; i++){
+        if(isPrime[i]){
+            primes.push(isPrime[i])
         }
     }
-
-    return primes;
-}
-
-function solution(n) {
-    const primes = sieveOfEratosthenes(n);
-    return primes.length;
+    return primes.length
 }
