@@ -1,6 +1,8 @@
-var fs = require("fs");
-var inputData = fs.readFileSync('/dev/stdin').toString().split("\n");
-for (const item of inputData) {
-  let nums = item.split(" ");
-  if (parseInt(nums[0]) + parseInt(nums[1])) console.log(parseInt(nums[0]) + parseInt(nums[1]));
+const input = require('fs').readFileSync('/dev/stdin').toString().split('\n');
+const num = parseInt(input[0]);
+
+for (let i = 1; i <= num; i++) {
+    let score = input[i].split(' ');
+    console.log(parseInt(score[0]) + parseInt(score[1]));
 }
+
