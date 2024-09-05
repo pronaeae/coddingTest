@@ -1,24 +1,12 @@
-const readline = require("readline");
-const fs = require("fs");
+const [_, ...rest] = require("fs").readFileSync(0, "utf-8").toString().trim().split("\n").map(Number);
 
-const rl = readline.createInterface({
-  //input: fs.createReadStream("text.txt"),
-  input: process.stdin,
-  output: process.stdout,
-  terminal: false,
-});
-
-let inputData = [];
-
-rl.on("line", function (line) {
-  inputData.push(line);
-}).on("close", function () {
-  const arr = inputData
-    .splice(1, inputData.length)
-    .map(Number)
-    .sort((a, b) => a - b);
-
+function solution(arr) {
   for (let i = 0; i < arr.length; i++) {
-    console.log(arr[i]);
+    for (let j = 0; j < arr.length; j++) {
+      if (arr[j] > arr[j + 1]) [arr[j], arr[j + 1]] = [arr[j + 1], arr[j]];
+    }
   }
-});
+
+  for (const item of arr) console.log(item);
+}
+solution(rest);
