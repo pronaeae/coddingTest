@@ -1,21 +1,38 @@
-const readline = require("readline");
-const fs = require("fs");
+const [_, ...rest] = require("fs").readFileSync(0, "utf-8").toString().trim().split("\n").map(Number);
 
-const rl = readline.createInterface({
-  //input: fs.createReadStream("text.txt"),
-  input: process.stdin,
-  output: process.stdout,
-  terminal: false,
-});
+function solution(arr) {
+  function buildHeap(arr) {
+    const len = arr.length;
+    for (let i = Math.floor(len / 2) - 1; i >= 0; i--) {
+      heapify(arr, len, i);
+    }
+  }
 
-let inputData = [];
+  function heapify(arr, len, idx) {
+    let largest = idx;
+    const left = 2 * idx + 1;
+    const right = 2 * idx + 2;
+    if (left < len && arr[left] > arr[largest]) {
+      largest = left;
+    }
+    if (right < len && arr[right] > arr[largest]) {
+      largest = right;
+    }
+    if (largest !== idx) {
+      [arr[idx], arr[largest]] = [arr[largest], arr[idx]];
+      heapify(arr, len, largest);
+    }
+  }
+  function sort(arr) {
+    const len = arr.length;
+    buildHeap(arr);
+    for (let i = len - 1; i >= 0; i--) {
+      [arr[0], arr[i]] = [arr[i], arr[0]];
+      heapify(arr, i, 0);
+    }
+    return arr;
+  }
+  return sort(arr);
+}
 
-rl.on("line", function (line) {
-  inputData.push(line);
-}).on("close", function () {
-  const [count, ...rest] = inputData;
-
-  const arr = rest.map(Number).sort((a, b) => a - b);
-
-  console.log(arr.join("\n"));
-});
+console.log(solution(rest).join("\n"));
