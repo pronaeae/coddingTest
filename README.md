@@ -56,4 +56,12 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/pronaeae/coddingTest/tree/master/0257-binary-tree-paths) |
+## Math
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/pronaeae/coddingTest/tree/master/0326-power-of-three) |
+## Recursion
+|  |
+| ------- |
+| [0326-power-of-three](https://github.com/pronaeae/coddingTest/tree/master/0326-power-of-three) |
 <!---LeetCode Topics End-->
