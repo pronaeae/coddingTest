@@ -52,6 +52,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0257-binary-tree-paths](https://github.com/pronaeae/coddingTest/tree/master/0257-binary-tree-paths) |
+| [2168-check-if-numbers-are-ascending-in-a-sentence](https://github.com/pronaeae/coddingTest/tree/master/2168-check-if-numbers-are-ascending-in-a-sentence) |
 ## Backtracking
 |  |
 | ------- |
