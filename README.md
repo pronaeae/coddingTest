@@ -59,6 +59,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Math
 |  |
 | ------- |
+| [0263-ugly-number](https://github.com/pronaeae/coddingTest/tree/master/0263-ugly-number) |
 | [0326-power-of-three](https://github.com/pronaeae/coddingTest/tree/master/0326-power-of-three) |
 ## Recursion
 |  |
