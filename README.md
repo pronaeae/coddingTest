@@ -53,6 +53,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | ------- |
 | [0257-binary-tree-paths](https://github.com/pronaeae/coddingTest/tree/master/0257-binary-tree-paths) |
 | [0344-reverse-string](https://github.com/pronaeae/coddingTest/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/pronaeae/coddingTest/tree/master/0345-reverse-vowels-of-a-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/pronaeae/coddingTest/tree/master/0557-reverse-words-in-a-string-iii) |
 | [1341-split-a-string-in-balanced-strings](https://github.com/pronaeae/coddingTest/tree/master/1341-split-a-string-in-balanced-strings) |
 | [2168-check-if-numbers-are-ascending-in-a-sentence](https://github.com/pronaeae/coddingTest/tree/master/2168-check-if-numbers-are-ascending-in-a-sentence) |
@@ -73,6 +74,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0344-reverse-string](https://github.com/pronaeae/coddingTest/tree/master/0344-reverse-string) |
+| [0345-reverse-vowels-of-a-string](https://github.com/pronaeae/coddingTest/tree/master/0345-reverse-vowels-of-a-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/pronaeae/coddingTest/tree/master/0557-reverse-words-in-a-string-iii) |
 ## Greedy
 |  |
