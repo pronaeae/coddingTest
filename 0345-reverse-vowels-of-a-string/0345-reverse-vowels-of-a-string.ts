@@ -1,16 +1,16 @@
 function reverseVowels(s: string): string {
-    const filterList = ['a','e','i','o','u','A','E','I','O','U'];
+    const filterList = new Set(['a','e','i','o','u','A','E','I','O','U']);
     const splited = s.split('');
 
     function reverse(left: number, right: number){
         if(left >= right) return;
 
-        if(!filterList.includes(splited[left])){
+        if(!filterList.has(splited[left])){
             reverse(left + 1, right);
             return;
         };
 
-        if(!filterList.includes(splited[right])){
+        if(!filterList.has(splited[right])){
             reverse(left, right - 1);
             return;
         };
