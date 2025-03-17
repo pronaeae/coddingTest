@@ -6,6 +6,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 ## Array
 |  |
 | ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/pronaeae/coddingTest/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0733-flood-fill](https://github.com/pronaeae/coddingTest/tree/master/0733-flood-fill) |
 ## Depth-First Search
 |  |
@@ -77,6 +78,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0125-valid-palindrome](https://github.com/pronaeae/coddingTest/tree/master/0125-valid-palindrome) |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/pronaeae/coddingTest/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0344-reverse-string](https://github.com/pronaeae/coddingTest/tree/master/0344-reverse-string) |
 | [0345-reverse-vowels-of-a-string](https://github.com/pronaeae/coddingTest/tree/master/0345-reverse-vowels-of-a-string) |
 | [0557-reverse-words-in-a-string-iii](https://github.com/pronaeae/coddingTest/tree/master/0557-reverse-words-in-a-string-iii) |
@@ -91,4 +93,8 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [1341-split-a-string-in-balanced-strings](https://github.com/pronaeae/coddingTest/tree/master/1341-split-a-string-in-balanced-strings) |
+## Binary Search
+|  |
+| ------- |
+| [0167-two-sum-ii-input-array-is-sorted](https://github.com/pronaeae/coddingTest/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 <!---LeetCode Topics End-->
