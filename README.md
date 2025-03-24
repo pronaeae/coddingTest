@@ -7,6 +7,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/pronaeae/coddingTest/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0733-flood-fill](https://github.com/pronaeae/coddingTest/tree/master/0733-flood-fill) |
 | [1050-construct-binary-search-tree-from-preorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/1050-construct-binary-search-tree-from-preorder-traversal) |
@@ -44,6 +45,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0101-symmetric-tree](https://github.com/pronaeae/coddingTest/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/pronaeae/coddingTest/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/pronaeae/coddingTest/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/pronaeae/coddingTest/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0144-binary-tree-preorder-traversal) |
@@ -58,6 +60,7 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 | [0101-symmetric-tree](https://github.com/pronaeae/coddingTest/tree/master/0101-symmetric-tree) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/pronaeae/coddingTest/tree/master/0104-maximum-depth-of-binary-tree) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0111-minimum-depth-of-binary-tree](https://github.com/pronaeae/coddingTest/tree/master/0111-minimum-depth-of-binary-tree) |
 | [0112-path-sum](https://github.com/pronaeae/coddingTest/tree/master/0112-path-sum) |
 | [0144-binary-tree-preorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0144-binary-tree-preorder-traversal) |
@@ -123,10 +126,12 @@ This is a auto push repository for Baekjoon Online Judge created with [BaekjoonH
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 ## Divide and Conquer
 |  |
 | ------- |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
+| [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/pronaeae/coddingTest/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 ## Binary Search Tree
 |  |
 | ------- |
